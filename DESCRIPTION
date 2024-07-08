@@ -3,7 +3,7 @@ Type: Package
 Title: Data Summarizer and Plotter
 Version: 0.1.0
 Author: Moritz Maier
-Maintainer: Moritz Maier maier.moritz@campus.lmu.de
+Maintainer: Moritz Maier <maier.moritz@campus.lmu.de>
 Description: This package provides functions to summarize and visualize datasets efficiently.
 License: MIT
 Imports: 
