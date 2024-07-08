@@ -1,11 +1,12 @@
-Package: Exercise6
+Package: exercise-6
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Data Summarizer and Plotter
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Author: Moritz Maier
+Maintainer: Moritz Maier maier.moritz@campus.lmu.de
+Description: This package provides functions to summarize and visualize datasets efficiently.
+License: MIT
+Imports: 
+    ggplot2,
+    dplyr
+RoxygenNote: 7.3.2
