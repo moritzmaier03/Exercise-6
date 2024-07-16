@@ -13,6 +13,8 @@
 #' data <- data.frame(x = rnorm(100), y = rnorm(100))
 #' plot_variables(data, "x", "y")
 #' @export
+library(ggplot2)
+
 plot_variables <- function(data, var1, var2, save_format = NULL, file_name = "scatter_plot") {
   plot <- ggplot(data, aes_string(x = var1, y = var2)) +
     geom_point() +

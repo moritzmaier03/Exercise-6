@@ -3,15 +3,6 @@
 \name{calculate_and_plot_approximation_ratio}
 \alias{calculate_and_plot_approximation_ratio}
 \title{Calculate and Plot Approximation Ratio}
-\usage{
-calculate_and_plot_approximation_ratio(
-  solutions,
-  exact_solutions,
-  method_names,
-  save_format = NULL,
-  file_name = "approximation_ratio_plot"
-)
-}
 \arguments{
 \item{solutions}{A list of numeric vectors representing the solutions found. Each list corresponds to an instance.}
 

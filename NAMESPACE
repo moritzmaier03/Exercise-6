@@ -1,1 +1,3 @@
-exportPattern("^[[:alpha:]]+")
+# Export functions
+export(calculate_and_plot_approximation_ratio)
+export(plot_variables)
