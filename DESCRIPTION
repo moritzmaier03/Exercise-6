@@ -1,12 +1,13 @@
 Package: exercise6
 Type: Package
-Title: Data Summarizer and Plotter
+Title: A Package for Data Analysis and Plotting
 Version: 0.1.0
 Author: Moritz Maier
 Maintainer: Moritz Maier <maier.moritz@campus.lmu.de>
-Description: This package provides functions to summarize and visualize datasets efficiently.
-License: MIT
-Imports: 
-    ggplot2,
-    dplyr
+Description: This package provides functions to calculate approximation ratios and plot variable relationships.
+Depends: R (>= 3.5.0)
+Imports:
+  ggplot2
+License: GPL-3
 RoxygenNote: 7.3.2
+Encoding: UTF-8
