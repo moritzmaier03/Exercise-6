@@ -3,6 +3,15 @@
 \name{plot_variables}
 \alias{plot_variables}
 \title{Plot Variables}
+\usage{
+plot_variables(
+  data,
+  var1,
+  var2,
+  save_format = NULL,
+  file_name = "scatter_plot"
+)
+}
 \arguments{
 \item{data}{A data frame containing the data.}
 

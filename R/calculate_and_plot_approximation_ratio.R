@@ -18,9 +18,8 @@
 #' method_names <- c("Method 1", "Method 2")
 #' calculate_and_plot_approximation_ratio(solutions, exact_solutions, method_names)
 #' @export
-library(ggplot2)
-
 calculate_and_plot_approximation_ratio <- function(solutions, exact_solutions, method_names, save_format = NULL, file_name = "approximation_ratio_plot") {
+  library(ggplot2)
   if(length(solutions) != length(exact_solutions)) {
     stop("The length of solutions must match the length of exact solutions.")
   }
